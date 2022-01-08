@@ -1,0 +1,7 @@
+{
+    "baseUrl":"http://localhost:3000",
+    "urls":{
+        "register":"/user/register",
+        "login" : "/user/login"
+    }
+}
