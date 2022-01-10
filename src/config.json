@@ -1,7 +1,40 @@
 {
-    "baseUrl":"http://localhost:3000",
+    "baseUrl":"http://192.168.1.193:8090",
+    "frontHomeUrl": "http://192.168.1.193:8080/",
     "urls":{
         "register":"/user/register",
         "login" : "/user/login"
-    }
+    },
+    "ItemsInfos":[
+        {
+            "name":"Instagram",
+            "color":"#BA68C8",
+            "icon":""
+        },
+        {
+            "name":"Snapchat",
+            "color":"#FFFF00",
+            "icon":""
+        },
+        {
+            "name":"Phone",
+            "color":"#64DD17",
+            "icon":""
+        },
+        {
+            "name":"Mail",
+            "color":"",
+            "icon":""
+        },
+        {
+            "name":"Linked In ",
+            "color":"#00B0FF",
+            "icon":""
+        },
+        {
+            "name":"TikTok",
+            "color":"",
+            "icon":""
+        }
+    ]
 }

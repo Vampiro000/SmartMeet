@@ -13,8 +13,16 @@ const routes = [
   {
     path: '/',
     name: 'MasterVue',
+    component: MasterVue,
+    meta: {
+      requiresAuth: true
+    }
+  },
+  {
+    path: '/infos',
+    name: 'MasterVue',
     children: [{
-      path: 'infos',
+      path: '',
       name: 'infos',
       component: Infos,
     }],
@@ -23,22 +31,6 @@ const routes = [
       requiresAuth: true
     }
   },
-  // {
-  //   path: '/infos',
-  //   components: {
-  //     default: MasterVue,
-  //     children: [{
-  //       path: '/infos',
-  //       name: 'infos',
-  //       default: Infos,
-  //     }]
-
-  //   }
-  //   ,
-  //   meta: {
-  //     requiresAuth: true
-  //   }
-  // },
   {
     path: '/login',
     name: 'Login',

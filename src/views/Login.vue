@@ -66,7 +66,7 @@ export default {
         .then((response) => {
           if (response.status === 200) {
             localStorage.setItem("TokenAuth", response.data);
-            window.location = "http://localhost:8080/";
+            window.location = config.frontHomeUrl;
           } else {
             alert("Erreur de Connexion", response);
             localStorage.clear();
